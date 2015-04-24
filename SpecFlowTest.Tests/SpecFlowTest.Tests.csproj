@@ -52,21 +52,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddingAClientSteps.cs" />
+    <Compile Include="UA5 - Manage Clients\US2 - create a client\CreateAClientSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpecFlowFeature1.feature.cs">
+    <Compile Include="UA5 - Manage Clients\US2 - create a client\CreateAClient.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+      <DependentUpon>CreateAClient.feature</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="SpecFlowFeature1.feature">
+    <None Include="UA3 - log in to the system\UA3 - log in to the system.pptx" />
+    <None Include="UA5 - Manage Clients\US2 - create a client\CreateAClient.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
+      <LastGenOutput>CreateAClient.feature.cs</LastGenOutput>
     </None>
+    <None Include="UA5 - Manage Clients\US2 - create a client\US2 - create a client.pptx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
@@ -76,6 +78,18 @@
       <Project>{a507f5b4-8948-4a99-a10e-aaae221f0b54}</Project>
       <Name>SpecFlowTest</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UA14 - Manage Users\" />
+    <Folder Include="UA3 - log in to the system\US1 - login with a username and password\" />
+    <Folder Include="UA3 - log in to the system\US13 - have my login details remembered by the system\" />
+    <Folder Include="UA3 - log in to the system\US4 - reset my password\" />
+    <Folder Include="UA5 - Manage Clients\US10 - edit a client\" />
+    <Folder Include="UA5 - Manage Clients\US11 - save a client\" />
+    <Folder Include="UA5 - Manage Clients\US7 - view a list of clients\" />
+    <Folder Include="UA5 - Manage Clients\US8 - archive a client\" />
+    <Folder Include="UA5 - Manage Clients\US8 - search for a client\" />
+    <Folder Include="UA5 - Manage Clients\US9 - open a client\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

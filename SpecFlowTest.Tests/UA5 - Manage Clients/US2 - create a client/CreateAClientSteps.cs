@@ -8,7 +8,7 @@ using TechTalk.SpecFlow;
 namespace SpecFlowTest.Tests
 {
     [Binding]
-    public class AddingAClientSteps
+    public class CreateAClientSteps
     {
         private Table clientTable;
 
@@ -43,7 +43,7 @@ namespace SpecFlowTest.Tests
             clientTable = table;
         }
 
-        [When(@"I press add")]
+        [When(@"I press Create")]
         public void WhenIPressAdd()
         {
             using (var db = new SpecFlowTestContext())

@@ -1,12 +1,12 @@
-﻿Feature: Adding a Client
+﻿Feature: Create a Client
 	In order to create a new client
 	As a sales person
 	I want to enter the client details and click add
 
 @mytag
-Scenario: Add a client
+Scenario: Create a Client
 	Given I have the following client details
 	| FirstName | LastName |
 	| Jeremy    | Pridmore |
-	When I press add
+	When I press Create
 	Then the client should be added to the database
