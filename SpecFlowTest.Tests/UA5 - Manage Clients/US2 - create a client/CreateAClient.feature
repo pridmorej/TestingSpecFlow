@@ -1,8 +1,8 @@
 ﻿Feature: Create a Client
-	In order to create a new client
-	As a sales person
-	I want to enter the client details and click add
-
+	As a user
+	I want to create a client
+	So that I can store details about them
+	
 @mytag
 Scenario: Create a Client
 	Given I have the following client details

@@ -52,6 +52,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UA3 - log in to the system\UA3 - log in to the system.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UA3 - log in to the system.feature</DependentUpon>
+    </Compile>
     <Compile Include="UA5 - Manage Clients\US2 - create a client\CreateAClientSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UA5 - Manage Clients\US2 - create a client\CreateAClient.feature.cs">
@@ -63,6 +68,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="UA3 - log in to the system\UA3 - log in to the system.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>UA3 - log in to the system.feature.cs</LastGenOutput>
+    </None>
     <None Include="UA3 - log in to the system\UA3 - log in to the system.pptx" />
     <None Include="UA5 - Manage Clients\US2 - create a client\CreateAClient.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
