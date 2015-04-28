@@ -11,7 +11,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowTest.Tests.UA3_LogInToTheSystem
+namespace SpecFlowTest.Tests.UA3_LogInToTheSystem.US13_HaveMyLoginDetailsRememberedByTheSystem
 {
     using TechTalk.SpecFlow;
     
@@ -19,21 +19,21 @@ namespace SpecFlowTest.Tests.UA3_LogInToTheSystem
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.9.0.77")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("UA3 - log in to the system")]
-    public partial class UA3_LogInToTheSystemFeature
+    [NUnit.Framework.DescriptionAttribute("US13 - have my login details remembered by the system")]
+    public partial class US13_HaveMyLoginDetailsRememberedByTheSystemFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "UA3 - log in to the system.feature"
+#line 1 "US13 - have my login details remembered by the system.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "UA3 - log in to the system", "In order to log in to the system\nAs a user\nI want to enter my username and passwo" +
-                    "rd", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "US13 - have my login details remembered by the system", "In order to avoid re-entering my username\nAs a user\nI want the system to remember" +
+                    " my username", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -63,6 +63,27 @@ namespace SpecFlowTest.Tests.UA3_LogInToTheSystem
         public virtual void ScenarioCleanup()
         {
             testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
+        [NUnit.Framework.CategoryAttribute("mytag")]
+        public virtual void AddTwoNumbers()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", new string[] {
+                        "mytag"});
+#line 7
+this.ScenarioSetup(scenarioInfo);
+#line 8
+ testRunner.Given("I have previously logged into the system", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 9
+ testRunner.When("I open the login screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 10
+ testRunner.Then("my username should appear in the username textbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 11
+ testRunner.And("the Remember Me tickbox should be ticked", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
         }
     }
 }

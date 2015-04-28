@@ -52,39 +52,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UA3 - log in to the system\UA3 - log in to the system.feature.cs">
+    <Compile Include="UA14 - Manage Users\US12 - create a user\US12 - create a user.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UA3 - log in to the system.feature</DependentUpon>
+      <DependentUpon>US12 - create a user.feature</DependentUpon>
     </Compile>
     <Compile Include="UA3 - log in to the system\US1 - login with a username and password\US1 - login with a username and password.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>US1 - login with a username and password.feature</DependentUpon>
     </Compile>
-    <Compile Include="UA5 - Manage Clients\US2 - create a client\CreateAClientSteps.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UA5 - Manage Clients\US2 - create a client\CreateAClient.feature.cs">
+    <Compile Include="UA3 - log in to the system\US1 - login with a username and password\US1_LoginWithAUsernameAndPasswordSteps.cs" />
+    <Compile Include="UA3 - log in to the system\US13 - have my login details remembered by the system\US13 - have my login details remembered by the system.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CreateAClient.feature</DependentUpon>
+      <DependentUpon>US13 - have my login details remembered by the system.feature</DependentUpon>
+    </Compile>
+    <Compile Include="UA3 - log in to the system\US13 - have my login details remembered by the system\US13_HaveMyLoginDetailsRememberedByTheSystemSteps.cs" />
+    <Compile Include="UA3 - log in to the system\US4 - reset my password\US4 - reset my password.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>US4 - reset my password.feature</DependentUpon>
+    </Compile>
+    <Compile Include="UA3 - log in to the system\US4 - reset my password\US4_ResetMyPasswordSteps.cs" />
+    <Compile Include="UA5 - Manage Clients\US2 - create a client\CreateAClientSteps.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UA5 - Manage Clients\US2 - create a client\US2 - create a client.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>US2 - create a client.feature</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="UA3 - log in to the system\UA3 - log in to the system.feature">
+    <None Include="UA14 - Manage Users\US12 - create a user\US12 - create a user.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>UA3 - log in to the system.feature.cs</LastGenOutput>
+      <LastGenOutput>US12 - create a user.feature.cs</LastGenOutput>
     </None>
     <None Include="UA3 - log in to the system\UA3 - log in to the system.pptx" />
     <None Include="UA3 - log in to the system\US1 - login with a username and password\US1 - login with a username and password.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>US1 - login with a username and password.feature.cs</LastGenOutput>
     </None>
-    <None Include="UA5 - Manage Clients\US2 - create a client\CreateAClient.feature">
+    <None Include="UA3 - log in to the system\US13 - have my login details remembered by the system\US13 - have my login details remembered by the system.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>CreateAClient.feature.cs</LastGenOutput>
+      <LastGenOutput>US13 - have my login details remembered by the system.feature.cs</LastGenOutput>
+    </None>
+    <None Include="UA3 - log in to the system\US4 - reset my password\US4 - reset my password.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>US4 - reset my password.feature.cs</LastGenOutput>
+    </None>
+    <None Include="UA5 - Manage Clients\US2 - create a client\US2 - create a client.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>US2 - create a client.feature.cs</LastGenOutput>
     </None>
     <None Include="UA5 - Manage Clients\US2 - create a client\US2 - create a client.pptx" />
   </ItemGroup>
@@ -98,9 +119,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UA14 - Manage Users\" />
-    <Folder Include="UA3 - log in to the system\US13 - have my login details remembered by the system\" />
-    <Folder Include="UA3 - log in to the system\US4 - reset my password\" />
+    <Folder Include="UA14 - Manage Users\US15 - search for a user\" />
+    <Folder Include="UA14 - Manage Users\US17 - view a list of users\" />
+    <Folder Include="UA14 - Manage Users\US18 - open a user\" />
+    <Folder Include="UA14 - Manage Users\US20 - save a user\" />
+    <Folder Include="UA14 - Manage Users\US21 - archive a user\" />
+    <Folder Include="UA14 - Manage Users\US22 - disable a user\" />
     <Folder Include="UA5 - Manage Clients\US10 - edit a client\" />
     <Folder Include="UA5 - Manage Clients\US11 - save a client\" />
     <Folder Include="UA5 - Manage Clients\US7 - view a list of clients\" />

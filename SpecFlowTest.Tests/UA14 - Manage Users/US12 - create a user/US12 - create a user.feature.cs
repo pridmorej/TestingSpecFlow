@@ -11,7 +11,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowTest.Tests.UA5_ManageClients.US2_CreateAClient
+namespace SpecFlowTest.Tests.UA14_ManageUsers.US12_CreateAUser
 {
     using TechTalk.SpecFlow;
     
@@ -19,20 +19,20 @@ namespace SpecFlowTest.Tests.UA5_ManageClients.US2_CreateAClient
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.9.0.77")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Create a Client")]
-    public partial class CreateAClientFeature
+    [NUnit.Framework.DescriptionAttribute("US12 - create a user")]
+    public partial class US12_CreateAUserFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "CreateAClient.feature"
+#line 1 "US12 - create a user.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Create a Client", "As a user\r\nI want to create a client\r\nSo that I can store details about them", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "US12 - create a user", "As a admin\r\nI want to create a user\r\nSo that I can store details about them", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -65,11 +65,11 @@ namespace SpecFlowTest.Tests.UA5_ManageClients.US2_CreateAClient
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Create a Client")]
+        [NUnit.Framework.DescriptionAttribute("Create a User")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void CreateAClient()
+        public virtual void CreateAUser()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a Client", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a User", new string[] {
                         "mytag"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
@@ -81,11 +81,11 @@ this.ScenarioSetup(scenarioInfo);
                         "Jeremy",
                         "Pridmore"});
 #line 8
- testRunner.Given("I have the following client details", ((string)(null)), table1, "Given ");
+ testRunner.Given("I have the following user details", ((string)(null)), table1, "Given ");
 #line 11
  testRunner.When("I press Create", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 12
- testRunner.Then("the client should be added to the database", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the user should be added to the database", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
